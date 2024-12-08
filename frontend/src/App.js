@@ -3,6 +3,7 @@ import { Send } from "react-feather";
 
 import robotIcon from "./robot.png";
 
+
 import styles from "./App.module.css";
 
 function App() {
@@ -49,6 +50,7 @@ function App() {
       setProcessing(false);
 
       const data = await res.json();
+      console.log(data); 
       const ans = data.data;
 
       setMessages((prev) => [
@@ -91,7 +93,7 @@ function App() {
         {messages.map((msg, index) => (
           <div
             className={`${styles.message} ${
-              msg.from == "ai" ? styles.mLeft : styles.mRight
+              msg.from === "ai" ? styles.mLeft : styles.mRight
             }`}
             key={index}
           >
