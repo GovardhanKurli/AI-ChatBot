@@ -7,13 +7,14 @@
 
 body {
   padding: 30px;
-  background-color: #031729;
+  /* background-color: #031729; */
+  background-color: #13212e;
 }
 
 .app {
   margin: 0 auto;
   height: calc(100vh - 60px);
-  width: 100%;
+  width: 80%;
   max-width: 1100px;
   display: flex;
   flex-direction: column;
@@ -73,7 +74,7 @@ body {
 
 .body::-webkit-scrollbar-thumb {
   appearance: none;
-  background-color: gray;
+  /* background-color: gray; */
   border-radius: 20px;
 }
 
@@ -107,7 +108,7 @@ body {
   color: white;
   padding: 10px 15px;
   border-radius: 10px;
-  border-top-left-radius: 0;
+  /* border-top-left-radius: 0; */
   font-size: 16px;
   line-height: 25px;
   white-space: pre-wrap;
@@ -195,7 +196,7 @@ body {
 .footer .btn {
   padding: 10px;
   border-radius: 10px;
-  background-color: #1d90f5;
+  background-color: #425463;
   display: flex;
   justify-content: center;
   align-items: center;
