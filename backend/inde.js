@@ -55,5 +55,7 @@ app.post("/chat", async (req, res) => {
     });
   }
 });
+//  
+// Start the server
 
-app.listen(5000, () => console.log("Server is UP at 5000"));
+app.listen(5000, () => console.log("Server is runing on port 5000"));
