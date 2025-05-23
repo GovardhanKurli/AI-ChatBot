@@ -88,7 +88,13 @@ function App() {
 
             <img  className={styles.image}src={logo} alt="AI" />
             
-            {/* <img src='https://in.images.search.yahoo.com/images/view;_ylt=AwrPpQzRbFVnauAlfE29HAx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzdmZDM1MzNmZmJiMzBiMjM4ZjQyMjM0OTA4MTMzNWI5BGdwb3MDMTUEaXQDYmluZw--?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dai%2Banimetion%2Bimages%26type%3DE210IN826G0%26fr%3Dmcafee%26fr2%3Dpiv-web%26tab%3Dorganic%26ri%3D15&w=1920&h=1080&imgurl=dm0qx8t0i9gc9.cloudfront.net%2Fthumbnails%2Fvideo%2FYWAdzU2%2Fvideoblocks-artificial-intelligence-104-a-3d-animated-head-rotates-loop_sfukzfikw_thumbnail-1080_01.png&rurl=https%3A%2F%2Fwww.storyblocks.com%2Fvideo%2Fstock%2Fartificial-intelligence-104-a-3d-animated-head-rotates-loop-stjlfyojdkcmb2c5i&size=1354KB&p=ai+animetion+images&oid=7fd3533ffbb30b238f422349081335b9&fr2=piv-web&fr=mcafee&tt=Artificial+Intelligence+104%3A+3d+Animated+Stock+Motion+Graphics+SBV+...&b=0&ni=21&no=15&ts=&tab=organic&sigr=Mtp_EZL20XrE&sigb=8nIlWvyxy9zf&sigi=MF4HaENe5dMd&sigt=2K4uKf95cXuK&.crumb=mcJT6Hhp9wq&fr=mcafee&fr2=piv-web&type=E210IN826G0' alt="AI" /> */}
+            {/* <img src='https://in.images.search.yahoo.com/images/view;_ylt=AwrPpQzRbFVnauAl
+            fE29HAx.;_ylu=c2VjA3NyBHNsawNpbWcEb2lkAzdmZDM1MzNmZmJiMzBiMjM4ZjQyMjM0OTA4MTMzNWI5
+            BGdwb3MDMTUEaXQDYmluZw--?back=https%3A%2F%2Fin.images.search.yahoo.com%2Fsearch%2Fi
+            mages%3Fp%3Dai%2Banimetion%2Bimages%26type%3DE210IN826G0%26fr%3Dmcafee%26fr2%3Dpiv-we
+            b%26tab%3Dorganic%26ri%3D15&w=1920&h=1080&imgurl=dm0qx8t0i9gc9.cloudfront.net%2Fthumb
+            nails%2Fvideo%2FYWAdzU2%2Fvideoblocks-artificial-intelligence-104-a-3d-animated-head-
+            rotates-loop_sfukzfikw_thumbnail-1080_01.png&rurl=https%3A%2F%2Fwww.storyblocks.com%2Fvideo%2Fstock%2Fartificial-intelligence-104-a-3d-animated-head-rotates-loop-stjlfyojdkcmb2c5i&size=1354KB&p=ai+animetion+images&oid=7fd3533ffbb30b238f422349081335b9&fr2=piv-web&fr=mcafee&tt=Artificial+Intelligence+104%3A+3d+Animated+Stock+Motion+Graphics+SBV+...&b=0&ni=21&no=15&ts=&tab=organic&sigr=Mtp_EZL20XrE&sigb=8nIlWvyxy9zf&sigi=MF4HaENe5dMd&sigt=2K4uKf95cXuK&.crumb=mcJT6Hhp9wq&fr=mcafee&fr2=piv-web&type=E210IN826G0' alt="AI" /> */}
           </div>
           <p>AI Assistant</p>
         </div>
@@ -150,3 +156,14 @@ function App() {
 }
 
 export default App;
+// import React from 'react';
+// import Form from './Form';
+// const App = () => {
+//   return (
+//     <div>
+//       <h1>AI Assistant</h1>
+//       <Form />
+//     </div>
+//   );
+// }
+// export default App;
