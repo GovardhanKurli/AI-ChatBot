@@ -28,9 +28,25 @@ app.post("/chat", async (req, res) => {
   }
 
   // Format the conversation for Gemini API
-  let formattedMessages = messages.map((item) => {
+  
+try {
+  // Format the conversation for Gemini API
+  var formattedMessages = messages.map((item) => {
     return `${item.from === "ai" ? "AI: " : "Human: "} ${item.text}`;
   }).join("\n");
+
+  // Make your Gemini API call here using `formattedMessages`
+  // const response = await callGeminiAPI(formattedMessages);
+
+} catch (error) {
+  console.error("API error:", error);
+
+  // Add error message to conversation
+  messages.push({
+    from: "ai",
+    text: "Oops, something went wrong"
+  });
+}
 
   // Define prompt for Gemini model
   const prompt = `The following is a conversation between a human and an AI assistant:\n${formattedMessages}\nAI:`;
