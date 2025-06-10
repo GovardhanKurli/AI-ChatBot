@@ -62,7 +62,8 @@ function App() {
           text: ans,
         },
       ]);
-    } catch (err) {
+    } 
+    catch (err) {
       const error = "Error processing this message, please try in sometime.";
       setMessages((prev) => [
         ...prev,
@@ -72,6 +73,16 @@ function App() {
         },
       ]);
     }
+    // catch (err) {
+    //   const error = "Error processing this message, please try in sometime.";
+    //   setMessages((prev) => [
+    //     ...prev,
+    //     {
+    //       from: "ai",
+    //       text: error,
+    //     },
+    //   ]);
+    // }
 
     setTimeout(() =>
       lastMsg.current.scrollIntoView({
